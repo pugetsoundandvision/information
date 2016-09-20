@@ -3,6 +3,8 @@
 ##Audio
 ### Links:
 [Puget Sound and Vision audio scripts](https://github.com/pugetsoundandvision/audiotools)
+
+[ARSC Guide to Audio Preservation](https://www.clir.org/pubs/reports/pub164/pub164.pdf)
 ##Video
 ### Links:
 [VRecord](https://github.com/amiaopensource/vrecord)
