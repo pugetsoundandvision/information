@@ -1,4 +1,4 @@
-# Information and Resources
+<p align="center"><strong>Information and Resources</strong></p>
 
 ##Audio
 
@@ -14,11 +14,12 @@ Tools for streamlining audio workflows. These tools take a WAV file and create a
 
 
 ##Video
-### Links:
-[VRecord](https://github.com/amiaopensource/vrecord)
+### Software Tools:
+* [Puget Sound and Vision Audio Workflow Scripts](https://github.com/pugetsoundandvision/videotools).  COMING SOON! Tools for facilitating the creation of access copies and archival packages with digital/digitized video.
+* [VRecord](https://github.com/amiaopensource/vrecord)  Free open source software for digitizing analog video.  Provides digital scopes and QC metadata to aid with creating high quality video transfers.
 
-[QCTools](https://bavc.org/preserve-media/preservation-tools)
+* [QCTools](https://bavc.org/preserve-media/preservation-tools) Free open source tools to help with QCing digitized video files.  For use information, see [Libby's Awesome Guide](https://github.com/bavc/qctools/blob/master/Docs/qctools.md)
 
-[Libby's Awesome Guide](https://github.com/bavc/qctools/blob/master/Docs/qctools.md)
-
-[ffmprovisr](https://amiaopensource.github.io/ffmprovisr/)
+##General Resources:
+* [ffmprovisr](https://amiaopensource.github.io/ffmprovisr/) A tool that provides annotated examples for a variety of FFMPEG commands to accomplish common A/V preservation tasks! I very good starting point for people trying to understand FFMPEG. Created at AMIA Hack Day.
+* [The Cable Bible](https://github.com/amiaopensource/cable-bible) A comprehensive guide to cables you might encounter in A/V preservation.  Maintained by MIAP's Ethan Gates.
