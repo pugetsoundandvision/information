@@ -18,7 +18,7 @@ Tools for streamlining audio workflows. These tools take a WAV file and create a
 * [Puget Sound and Vision Video Workflow Scripts](https://github.com/pugetsoundandvision/videotools).  COMING SOON! Tools for facilitating the creation of access copies and archival packages with digital/digitized video.
 * [VRecord](https://github.com/amiaopensource/vrecord)  Free open source software for digitizing analog video.  Provides digital scopes and QC metadata to aid with creating high quality video transfers.
 
-* [QCTools](https://bavc.org/preserve-media/preservation-tools) Free open source tools to help with QCing digitized video files.  For use information, see [Libby's Awesome Guide](https://github.com/bavc/qctools/blob/master/Docs/qctools.md)
+* [QCTools](https://bavc.org/preserve-media/preservation-tools) Free open source tools to help with QCing digitized video files.  For use information, see [Libby's Awesome Guide](https://github.com/bavc/qctools/blob/master/Docs/qctools.md).
 
 ##General Resources:
 * [ffmprovisr](https://amiaopensource.github.io/ffmprovisr/) A tool that provides annotated examples for a variety of FFMPEG commands to accomplish common A/V preservation tasks! I very good starting point for people trying to understand FFMPEG. Created at AMIA Hack Day.
