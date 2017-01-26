@@ -6,11 +6,11 @@ In the upcoming version of vrecord the scopes have been slightly updated.  The b
 
 Upcoming Scopes
 
-![image alt text](image_0.png)
+![image alt text](image_2_0.png)
 
 **Interface:**
 
-![image alt text](image_1.png)
+![image alt text](image_2_1.png)
 
 The ‘Take’ button on the DPS-575 allows you to freeze a frame to aid with calibrating your signal for digitization.  To calibrate for best quality you will adjust ‘Black,’ ‘Luma,’ ‘Chroma’ and ‘Hue’ until the video is within broadcast range.  To exit ‘take’ mode press the ‘exit’ button.  To return any of the settings to zero (you should confirm they are zeroed before you run any tapes) simply press the button (e.g. ‘Hue’) and then press the ‘Default’ button.
 
@@ -18,25 +18,25 @@ The ‘Take’ button on the DPS-575 allows you to freeze a frame to aid with ca
 
 **Absolute black should be just above the blue bar.**
 
-![image alt text](image_2.png)
+![image alt text](image_2_2.png)
 
 **BAD**
 
-![image alt text](image_3.png)
+![image alt text](image_2_3.png)
 
 **GOOD**
 
-![image alt text](image_4.png)
+![image alt text](image_2_4.png)
 
 **Step 2- Luma:  Keep all levels (within reason- there might be some noise or poorly calibrated scenes) in the green area of the waveform monitor.  Absolute white should be just under the red bar.**![image alt text](image_5.png)
 
 **BAD**
 
-![image alt text](image_6.png)
+![image alt text](image_2_6.png)
 
 **GOOD**
 
-![image alt text](image_7.png)
+![image alt text](image_2_7.png)
 
 **Step 3- Chroma/Hue: Either align to color bars if possible, or find a close up of a face and align from skin tone.  Chroma changes saturation, and hue changes color.**
 
