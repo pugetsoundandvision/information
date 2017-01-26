@@ -28,7 +28,7 @@ The ‘Take’ button on the DPS-575 allows you to freeze a frame to aid with ca
 
 ![image alt text](image_2_4.png)
 
-**Step 2- Luma:  Keep all levels (within reason- there might be some noise or poorly calibrated scenes) in the green area of the waveform monitor.  Absolute white should be just under the red bar.**![image alt text](image_5.png)
+**Step 2- Luma:  Keep all levels (within reason- there might be some noise or poorly calibrated scenes) in the green area of the waveform monitor.  Absolute white should be just under the red bar.**![image alt text](image_2_5.png)
 
 **BAD**
 
@@ -36,7 +36,7 @@ The ‘Take’ button on the DPS-575 allows you to freeze a frame to aid with ca
 
 **GOOD**
 
-![image alt text](image_2_7.png)
+![image alt text](image_7.png)
 
 **Step 3- Chroma/Hue: Either align to color bars if possible, or find a close up of a face and align from skin tone.  Chroma changes saturation, and hue changes color.**
 
