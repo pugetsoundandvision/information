@@ -6,7 +6,7 @@
 * [Puget Sound and Vision Audio Workflow Scripts](https://github.com/pugetsoundandvision/audiotools).
 Tools for streamlining audio workflows. These tools take a WAV file and create an archival package with BWF metadata and the optional documentation of original item container.
 * [Audacity](http://www.audacityteam.org/)  A free, open source DAW (Digital Audio Workstation) for recording and editing of audio.
-* [XLD CD Ripping and Audio Conversion Software](http://tmkk.undo.jp/xld/index_e.html)  Supports error free ripping of audio cds as well as conversion between a variety of lossless audio formats.
+* [XLD CD Ripping and Audio Conversion Software](http://tmkk.undo.jp/xld/index_e.html)  Supports error free ripping of audio cds as well as conversion between a variety of lossless audio formats.  Setup instructions for CD ripping can be found [here](http://wiki.hydrogenaud.io/index.php?title=XLD_Configuration#.22CD_Rip.22_tab).
 
 ### Documents
 * [ARSC Guide to Audio Preservation](https://www.clir.org/pubs/reports/pub164/pub164.pdf)
