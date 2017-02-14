@@ -5,6 +5,7 @@
 ### Software Tools:
 * [Puget Sound and Vision Audio Workflow Scripts](https://github.com/pugetsoundandvision/audiotools).
 Tools for streamlining audio workflows. These tools take a WAV file and create an archival package with BWF metadata and the optional documentation of original item container.
+* [audiorecorder](https://github.com/amiaopensource/audiorecorder) An archivally focused open source tool for analog audio calibration and digitization currently under development by pugetsoundandvision members.
 * [Audacity](http://www.audacityteam.org/)  A free, open source DAW (Digital Audio Workstation) for recording and editing of audio.
 * [XLD CD Ripping and Audio Conversion Software](http://tmkk.undo.jp/xld/index_e.html)  Supports error free ripping of audio cds as well as conversion between a variety of lossless audio formats.  Setup instructions for CD ripping can be found [here](http://wiki.hydrogenaud.io/index.php?title=XLD_Configuration#.22CD_Rip.22_tab).
 
@@ -21,5 +22,6 @@ Tools for streamlining audio workflows. These tools take a WAV file and create a
 * [QCTools](https://bavc.org/preserve-media/preservation-tools) Free open source tools to help with QCing digitized video files.  For use information, see [Libby's Awesome Guide](https://github.com/bavc/qctools/blob/master/docs/qctools.md).
 
 ##General Resources:
+* [MediaConch](https://mediaarea.net/MediaConch/) A tool that allows extensive compliance testing for digitized files. Indispensable tool for confirming that outsourced reformatting projects meet internal standards.
 * [ffmprovisr](https://amiaopensource.github.io/ffmprovisr/) A tool that provides annotated examples for a variety of FFMPEG commands to accomplish common A/V preservation tasks! I very good starting point for people trying to understand FFMPEG. Created at AMIA Hack Day.
 * [The Cable Bible](https://github.com/amiaopensource/cable-bible) A comprehensive guide to cables you might encounter in A/V preservation.  Maintained by MIAP's Ethan Gates.
