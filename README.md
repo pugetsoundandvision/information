@@ -19,7 +19,7 @@ Tools for streamlining audio workflows. These tools take a WAV file and create a
 * [Puget Sound and Vision Video Workflow Scripts](https://github.com/pugetsoundandvision/videotools).  COMING SOON! Tools for facilitating the creation of access copies and archival packages with digital/digitized video.
 * [VRecord](https://github.com/amiaopensource/vrecord)  Free open source software for digitizing analog video.  Provides digital scopes and QC metadata to aid with creating high quality video transfers.
 
-* [QCTools](https://bavc.org/preserve-media/preservation-tools) Free open source tools to help with QCing digitized video files.  For use information, see [Libby's Awesome Guide](https://github.com/bavc/qctools/blob/master/docs/qctools.md).
+* [QCTools](https://bavc.org/preserve-media/preservation-tools) Free open source tools to help with QCing digitized video files.  For use information, see [Libby's Awesome Guide](https://github.com/bavc/qctools-documentation/blob/master/SeattleMunicipalArchives/qctools.pdf).
 
 ## General Resources:
 * [MediaConch](https://mediaarea.net/MediaConch/) A tool that allows extensive compliance testing for digitized files. Indispensable tool for confirming that outsourced reformatting projects meet internal standards.
