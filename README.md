@@ -23,5 +23,6 @@ Tools for streamlining audio workflows. These tools take a WAV file and create a
 
 ## General Resources:
 * [MediaConch](https://mediaarea.net/MediaConch/) A tool that allows extensive compliance testing for digitized files. Indispensable tool for confirming that outsourced reformatting projects meet internal standards.
+* [MediaInfo](https://mediaarea.net/en/MediaInfo) An essential tool for viewing extensive metadata of A/V files. Available in GUI and CLI form.
 * [ffmprovisr](https://amiaopensource.github.io/ffmprovisr/) A tool that provides annotated examples for a variety of FFMPEG commands to accomplish common A/V preservation tasks! I very good starting point for people trying to understand FFMPEG. Created at AMIA Hack Day.
 * [The Cable Bible](https://github.com/amiaopensource/cable-bible) A comprehensive guide to cables you might encounter in A/V preservation.  Maintained by MIAP's Ethan Gates.
