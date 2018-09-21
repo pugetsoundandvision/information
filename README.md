@@ -9,6 +9,7 @@ Tools for streamlining audio workflows. These tools take a WAV file and create a
 * [Audacity](http://www.audacityteam.org/)  A free, open source DAW (Digital Audio Workstation) for recording and editing of audio.
 * [XLD CD Ripping and Audio Conversion Software](http://tmkk.undo.jp/xld/index_e.html)  Supports error free ripping of audio cds as well as conversion between a variety of lossless audio formats.  Setup instructions for CD ripping can be found [here](http://wiki.hydrogenaud.io/index.php?title=XLD_Configuration#.22CD_Rip.22_tab).
 * [Exact Audio Copy CD Ripping](http://www.exactaudiocopy.de/) Another program that supports error free ripping of audio cds. For Microsoft Windows.
+* [CDDA2WAV](http://www.cdda2wav.de/) Linux CLI that incorporated CD Paranoia library.
 
 ### Documents
 * [ARSC Guide to Audio Preservation](https://www.clir.org/pubs/reports/pub164/pub164.pdf)
