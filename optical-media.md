@@ -1,15 +1,20 @@
 # Optical A/V Media Workflows and Recommendations
 
 ## Contents
-1. [Introduction](#introduction)
+1. [Overview](#overview)
 2. [Audio CDs](#audio-cds-cddas)
 3. [DVDs](#dvds)
 4. [Appendix A](appendix-a)
 5. [Appendix B](appendix-b)
 
-## Introduction
+## Overview
 
 Due to the nature of their respective standards, media items that are on optical discs require distinct preservation workflows from other types of digital content. The following information presents workflows and tool examples that facilitate the preferred preservation deliverables of UW Libraries for these formats. 
+
+|Format|Preferred Deliverable|Recommended Tools|
+|---|---|---|
+|CD-DA (Audio CD)|Single file (WAV or FLAC) with CUE Sheet|Exact Audio Copy, XLD|
+|DVD Video|ISO Disc Image File|Isobuster, ddrescue|
 
 ## Audio CDs (CDDAs)
 
