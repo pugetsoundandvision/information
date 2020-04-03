@@ -28,7 +28,13 @@ Audio files should be migrated to a lossless format that preserves the original 
 
 ### Recommended workflow
 
-The program [Exact Audio Copy](http://www.exactaudiocopy.de/) (EAC) is highly recommended for CD-DA migration. EAC is a Windows program that is free for non-commercial use. While it is native in the Windows system, it can be reliably run on both Linux and macOS via the [WINE Compatibility Layer](https://www.winehq.org/)
+The program [Exact Audio Copy](http://www.exactaudiocopy.de/) (EAC) is highly recommended for CD-DA migration. EAC is a Windows program that is free for non-commercial use. While it is native in the Windows system, it can be reliably run on both Linux and macOS via the [WINE Compatibility Layer](https://www.winehq.org/).
+
+Upon first running EAC, it will need to be configured for use with your CD Drive. When you launch it, it will offer options to guide you through the process. A good guide for this process can be found through the [Hydrogen Audio Wiki](https://wiki.hydrogenaud.io/index.php?title=EAC_Configuration_Wizard).
+
+Upon inserting a CD, you will have the option of editing the metadata that will be stored in the CUE Sheet. At minimum, the `Title` field should be assigned to the most appropriate identifier (often the item number for archival materials).
+
+Once metadata entry is complete, to create the desired deliverables of a single audio file with associated CUE sheet, select `Copy Image & Create CUE Sheet` from the `Action` menu. Select `Uncompressed` if generating WAV files, or `Compressed` if you have set up EAC to capture FLAC.
 
 ![EAC window example](/resources/EAC.jpg)
 
