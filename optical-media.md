@@ -1,10 +1,17 @@
 # Optical A/V Media Workflows and Recommendations
 
+## Contents
+1. [Introduction](#introduction)
+2. [Audio CDs](#audio-cds-cddas)
+3. [DVDs](#dvds)
+4. [Appendix A](appendix-a)
+5. [Appendix B](appendix-b)
+
 ## Introduction
 
 Due to the nature of their respective standards, media items that are on optical discs require distinct preservation workflows from other types of digital content. The following information presents workflows and tool examples that facilitate the preferred preservation deliverables of UW Libraries for these formats. 
 
-## CDDAs (Audio CDs)
+## Audio CDs (CDDAs)
 
 
 ### Background
@@ -12,6 +19,20 @@ Due to the nature of their respective standards, media items that are on optical
 Audio CDs (known as CD-DA for Compact Disc Digital Audio) contain a raw stream of audio data with an index and thus can't be 'imaged' in the same way as other digital media. Also - due to compromises made between error correction and storage space, when migrating audio CDs it is important to use specialty software that is capable of multiple passes. (As an example - according to [this paper](https://www.weareavp.com/wp-content/uploads/2014/04/OpticalMediaPreservation.pdf) by AVP, consumer players average about a 5% error rate, so a single pass would risk only capturing 95% of the audio content per disc).
 
 The following workflow will provide recommendations for suitable software, as well as brief notes on other CD-DA specific considerations.
+
+### Preferred deliverables
+
+Audio CDs should be migrated to a single file containing all audio information, and accompanied by a CUE Sheet file. This CUE Sheet is a plain text document that provides metadata such as in/out times for audio tracks, and naming information if present. (See [sample CUE Sheet](/resources/sample.cue) for an example).
+
+Audio files should be migrated to a lossless format that preserves the original characteristics of the CD Source (16 bit, 44.1 kHz). UW Libraries prefers either uncompressed WAV files, or files losslessly compressed in the [FLAC format](https://xiph.org/flac/).
+
+### Recommended workflow
+
+The program [Exact Audio Copy](http://www.exactaudiocopy.de/) (EAC) is highly recommended for CD-DA migration. EAC is a Windows program that is free for non-commercial use. While it is native in the Windows system, it can be reliably run on both Linux and macOS via the [WINE Compatibility Layer](https://www.winehq.org/)
+
+![EAC window example](/resources/EAC.jpg)
+
+
 
 #### CD Drive Offsets
 
@@ -29,9 +50,6 @@ This model number can then be used to search in the [Accuraterip list of drive o
 Some CDs were created using frequency emphasis that must be accounted for and reversed on playback for correct sound. (This is analogous to the [RIAA curve](https://en.wikipedia.org/wiki/RIAA_equalization) used on LPs and their need to be played back with a phono amp). CD Players that are standards compliant will be able to detect emphasis, however this will not automatically occur during any migration. This is relatively rare, and occurs mostly on older CDs from the 1980s. Nonetheless, it should be considered when planning any migrations that might contain affected materials. Should an example of a CD containing pre-emphasis be desired, [_Can't Slow Down_](https://alliance-primo.hosted.exlibrisgroup.com/permalink/f/kjtuig/CP71148760790001451) by Lionel Ritchie is available in the UW Libraries Collection.
 
 To accurately preserve both the contents of the optical disk, as well as the intended presentation experience of the CD, if a CD contains pre-emphasis two versions of the content should be created. A 'flat' version of the CD should be migrated, with the appropriate flags indicating pre-emphasis contained in the associated CUE sheet. Any CDs reproduced from this combination will play correctly with de-emphasis applied. In addition to this, a digital listening copy should be created that has had a de-emphasis filter applied. For methods to do this, see [Appendix A](#appendix-a).
-
-
-![EAC window example](/resources/EAC.jpg)
 
 ## DVDs
 
@@ -66,3 +84,9 @@ The following text should be added to the Audacity configuration file EQCurves.x
 The file can then be edited in audacity and the new curve applied via the 'Equalization' effect.
 
 Curve was created using the information in [this paper](https://web.archive.org/web/20170704181101/https://audioxpress.com/assets/upload/files/galo3025.pdf) by a user in the [Audacity Forums](https://web.archive.org/web/20200402221556/https://forum.audacityteam.org/viewtopic.php?t=9141).
+
+### Appendix B
+
+[Yale Alice Prael Paper](http://campuspress.yale.edu/borndigital/2016/12/20/to-image-or-copy-the-compact-disc-digital-audio-dilemma/)
+[NYU Annie Schweikert Paper](https://archive.nyu.edu/bitstream/2451/43877/2/Schweikert_OpticalMediaPreservationNYU_2018.pdf)
+[Johan Van Der Knijff paper](https://researchkb.wordpress.com/2015/11/13/preserving-optical-media-from-the-command-line/)
