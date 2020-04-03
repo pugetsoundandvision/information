@@ -66,6 +66,20 @@ To accurately preserve both the contents of the optical disk, as well as the int
 
 ### Background
 
+To capture the content of a video DVD, an ISO disc image file should be created (as opposed to loading the disc and then copying the VOB video files off). This allows for better handling of any errors in the disc, as well as facilitates both easier playback and derivative generation. If an ISO image of a DVD is played back using software such as VLC, not only the video but things like the menu will be viewable in a close approximation of their original format. Additionally ISO images can be used as inputs for tools such as Handbrake to create access MP4s as desired.
+
+### Preferred deliverables
+A single ISO disc image file should be created for each DVD. This ISO should be named according to a convention that allows it to be associated with the original item (for example Item_Number.iso).
+
+### Recommended workflow
+
+__Linux Environment (Such as Bit Curator)__
+
+* Readom
+* DDRescue
+
+
+__Isobuster__
 ![Isobuster window example](/resources/isobuster.jpg)
 
 ### Appendix A
