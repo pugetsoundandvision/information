@@ -13,25 +13,25 @@ Due to the nature of their respective standards, media items that are on optical
 
 |Format|Preferred Deliverable|Recommended Tools|
 |---|---|---|
-|CD-DA (Audio CD)|Single file (WAV or FLAC) with CUE Sheet|Exact Audio Copy, XLD|
+|CD-DA (Audio CD)|44.1 kHz/16 Bit Single file (WAV or FLAC) with CUE Sheet|Exact Audio Copy, XLD|
 |DVD Video|ISO Disc Image File|Isobuster, ddrescue|
 
 ## Audio CDs (CDDAs)
 
 
-### Background
+#### Background
 
-Audio CDs (known as CD-DA for Compact Disc Digital Audio) contain a raw stream of audio data with an index and thus can't be 'imaged' in the same way as other digital media. Also - due to compromises made between error correction and storage space, when migrating audio CDs it is important to use specialty software that is capable of multiple passes. (As an example - according to [this paper](https://www.weareavp.com/wp-content/uploads/2014/04/OpticalMediaPreservation.pdf) by AVP, consumer players average about a 5% error rate, so a single pass would risk only capturing 95% of the audio content per disc).
+Audio CDs (known as CD-DA for Compact Disc Digital Audio) contain a raw stream of audio data with an index and thus can't be 'imaged' in the same way as other digital media. Also - due to compromises made between error correction and storage space, when migrating audio CDs it is important to use specialty software that is capable of multiple passes. (As an example - according to [this paper](https://www.weareavp.com/wp-content/uploads/2014/04/OpticalMediaPreservation.pdf) by AVP, consumer players average about a 5% error rate, so a single pass would risk only accurately capturing 95% of the audio content per disc).
 
 The following workflow will provide recommendations for suitable software, as well as brief notes on other CD-DA specific considerations.
 
-### Preferred deliverables
+#### Preferred deliverables
 
 Audio CDs should be migrated to a single file containing all audio information, and accompanied by a CUE Sheet file. This CUE Sheet is a plain text document that provides metadata such as in/out times for audio tracks, and naming information if present. (See [sample CUE Sheet](/resources/sample.cue) for an example).
 
 Audio files should be migrated to a lossless format that preserves the original characteristics of the CD Source (16 bit, 44.1 kHz). UW Libraries prefers either uncompressed WAV files, or files losslessly compressed in the [FLAC format](https://xiph.org/flac/).
 
-### Recommended workflow
+#### Recommended workflow
 
 The program [Exact Audio Copy](http://www.exactaudiocopy.de/) (EAC) is highly recommended for CD-DA migration. EAC is a Windows program that is free for non-commercial use. While it is native in the Windows system, it can be reliably run on both Linux and macOS via the [WINE Compatibility Layer](https://www.winehq.org/).
 
@@ -44,6 +44,10 @@ Once metadata entry is complete, to create the desired deliverables of a single 
 ![EAC window example](/resources/EAC.jpg)
 
 
+#### Derivative Generation
+
+
+### Additional CD-DA Considerations
 
 #### CD Drive Offsets
 
@@ -64,14 +68,14 @@ To accurately preserve both the contents of the optical disk, as well as the int
 
 ## DVDs
 
-### Background
+#### Background
 
 To capture the content of a video DVD, an ISO disc image file should be created (as opposed to loading the disc and then copying the VOB video files off). This allows for better handling of any errors in the disc, as well as facilitates both easier playback and derivative generation. If an ISO image of a DVD is played back using software such as VLC, not only the video but things like the menu will be viewable in a close approximation of their original format. Additionally ISO images can be used as inputs for tools such as Handbrake to create access MP4s as desired.
 
-### Preferred deliverables
+#### Preferred deliverables
 A single ISO disc image file should be created for each DVD. This ISO should be named according to a convention that allows it to be associated with the original item (for example Item_Number.iso).
 
-### Recommended workflow
+#### Recommended workflow
 
 __Linux Environment (Such as Bit Curator)__
 
@@ -82,7 +86,9 @@ __Linux Environment (Such as Bit Curator)__
 __Isobuster__
 ![Isobuster window example](/resources/isobuster.jpg)
 
-### Appendix A
+#### Derivative Generation
+
+#### Appendix A
 There are several methods to apply a de-emphasis filter. If the CD is still available, ripping it via the Apple iTunes software will automatically create a de-emphasized version. If de-emphasis needs to be applied to an already existing file, the following are two options.
 
 __FFmpeg__
@@ -113,5 +119,7 @@ Curve was created using the information in [this paper](https://web.archive.org/
 ### Appendix B
 
 [Yale Alice Prael Paper](http://campuspress.yale.edu/borndigital/2016/12/20/to-image-or-copy-the-compact-disc-digital-audio-dilemma/)
+
 [NYU Annie Schweikert Paper](https://archive.nyu.edu/bitstream/2451/43877/2/Schweikert_OpticalMediaPreservationNYU_2018.pdf)
+
 [Johan Van Der Knijff paper](https://researchkb.wordpress.com/2015/11/13/preserving-optical-media-from-the-command-line/)
