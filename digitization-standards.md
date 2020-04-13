@@ -12,18 +12,19 @@ MiniDisc|24 Bit PCM|Broadcast WAVE|48 kHz
 #### Video Formats
 Format|Preservation Codec|Preservation Wrapper|Attributes
 ---|---|---|---
-Analog Video Tape|FFV1 version 3|Matroska (MKV)|Audio should be 24 Bit/48 kHz LPCM
+Analog Video Tape|10 bit FFV1 version 3|Matroska (MKV)|Audio should be 24 Bit/48 kHz LPCM
 DV Tape Family|DV|DV|DV encoded materials should always be captured natively via Firewire
 Digital8|DV|DV|DV encoded materials should always be captured natively via Firewire
 Other Digital Video Tape|FFV1 version 3|Matroska (MKV)|Audio should be 24 Bit/48 kHz LPCM
 
 
 #### Film Formats
+Preservation files for film based formats should be created from DPX with [RAWcooked tool](https://mediaarea.net/RAWcooked)
 Format|Preservation Codec|Preservation Wrapper|Attributes
 ---|---|---|---
-35mm Film|test|test|test
-16mm Film|test|test|test
-8mm Film|test|test|test
+35mm Film|16 bit FFV1|Matroska|4k resolution over scan.
+16mm Film|10 bit FFV1|Matroska|4k resolution over scan.
+8mm Film|10 bit FFV1|Matroska|4k resolution over scan.
 
 ### LoC Links
 * [24 Bit LPCM](https://www.loc.gov/preservation/digital/formats/fdd/fdd000011.shtml)
