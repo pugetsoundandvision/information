@@ -19,7 +19,9 @@ For example:
   * `99320152284601451`
 * If desired a more descriptive title can be added to the item number by separating with a dash. [Camel Case](https://en.wikipedia.org/wiki/Camel_case) is preferred for multi-word titles. Example:
   * `14-003-windowsOnTheWorld`
-* [side/part] Sides should be included in filenames when applicable. This should be written as Side1, Side2 etc. If there are multiple regions on the same side that must be split into separate files (such as speed changes mid tape) these should be noted with the addition of lowercase letters. Example: 
+* [side/part] Sides should be included in filenames when applicable. This should be written as Side1, Side2 etc. If there are multiple regions on the same side that must be split into separate files (such as speed changes mid tape) these should be noted with the addition of lowercase letters. If sides are not relevant to the media, or if there is only a single informational side with multiple regions 'part' should be used. Examples: 
   * `Side1a, Side1b, Side2`
+  * `Part1, Part2`
+* If there is only a single side with a single region, side information does not need to be noted.
 
 
