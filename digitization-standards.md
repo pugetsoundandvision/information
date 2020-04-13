@@ -26,7 +26,13 @@ Format|Preservation Codec|Preservation Wrapper|Attributes
 16mm Film|10 bit FFV1|Matroska|4k resolution over scan.
 8mm Film|10 bit FFV1|Matroska|4k resolution over scan.
 
+### Additional Links
+* [MDPI FFV1 White Paper](https://mdpi.iu.edu/doc/MDPIwhitepaper.pdf)
 ### LoC Links
 * [24 Bit LPCM](https://www.loc.gov/preservation/digital/formats/fdd/fdd000011.shtml)
 * [Broadcast WAVE](https://www.loc.gov/preservation/digital/formats/fdd/fdd000003.shtml)
+* [DV](https://www.loc.gov/preservation/digital/formats/fdd/fdd000183.shtml)
+* [FLAC](https://www.loc.gov/preservation/digital/formats/fdd/fdd000198.shtml)
+* [FFV1](https://www.loc.gov/preservation/digital/formats/fdd/fdd000341.shtml)
+* [Matroska](https://www.loc.gov/preservation/digital/formats/fdd/fdd000342.shtml)
 
