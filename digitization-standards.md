@@ -1,4 +1,4 @@
-# UW Media Digitization Requirements
+# UW Media Digitization Preferred Formats
 
 #### Audio Formats
 Format|Preservation Codec|Preservation Wrapper|Attributes
