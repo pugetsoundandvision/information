@@ -46,6 +46,10 @@ Once metadata entry is complete, to create the desired deliverables of a single 
 
 #### Derivative Generation
 
+While Exact Audio Copy can be used to split Wave files with CUE sheets into individual tracks (by selecting `Split Wave by CUE Sheet` from the tools menu, it is recommended to use a different tool that enables compression for derivative generation.
+
+One such tool that works well for this purpose is [CUE Tools](http://cue.tools/wiki/CUETools_Download). Within CUE Tools, after selecting the desired input and output locations, set `Action` to `Encode`, `Mode` to `Tracks` and `Audio Output` to `Lossy` (while selecting mp3 from the dropdown menu). Pressing `Go` will begin the splitting and transcoding of your FLAC or WAV master file into track based derivative files.
+
 
 ### Additional CD-DA Considerations
 
@@ -62,7 +66,7 @@ This model number can then be used to search in the [Accuraterip list of drive o
 
 #### CD Pre-emphasis
 
-Some CDs were created using frequency emphasis that must be accounted for and reversed on playback for correct sound. (This is analogous to the [RIAA curve](https://en.wikipedia.org/wiki/RIAA_equalization) used on LPs and their need to be played back with a phono amp). CD Players that are standards compliant will be able to detect emphasis, however this will not automatically occur during any migration. This is relatively rare, and occurs mostly on older CDs from the 1980s. Nonetheless, it should be considered when planning any migrations that might contain affected materials. Should an example of a CD containing pre-emphasis be desired, [_Can't Slow Down_](https://alliance-primo.hosted.exlibrisgroup.com/permalink/f/kjtuig/CP71148760790001451) by Lionel Ritchie is available in the UW Libraries Collection.
+Some CDs were created using frequency emphasis that must be accounted for and reversed on playback for correct sound. (This is analogous to the [RIAA curve](https://en.wikipedia.org/wiki/RIAA_equalization) used on LPs and their need to be played back with a phono preamp). CD Players that are standards compliant will be able to detect emphasis, however this will not automatically occur during any migration. This is relatively rare, and occurs mostly on older CDs from the 1980s. Nonetheless, it should be considered when planning any migrations that might contain affected materials. Should an example of a CD containing pre-emphasis be desired, [_Can't Slow Down_](https://alliance-primo.hosted.exlibrisgroup.com/permalink/f/kjtuig/CP71148760790001451) by Lionel Ritchie is available in the UW Libraries Collection.
 
 To accurately preserve both the contents of the optical disk, as well as the intended presentation experience of the CD, if a CD contains pre-emphasis two versions of the content should be created. A 'flat' version of the CD should be migrated, with the appropriate flags indicating pre-emphasis contained in the associated CUE sheet. Any CDs reproduced from this combination will play correctly with de-emphasis applied. In addition to this, a digital listening copy should be created that has had a de-emphasis filter applied. For methods to do this, see [Appendix A](#appendix-a).
 
@@ -87,6 +91,8 @@ __Isobuster__
 ![Isobuster window example](/resources/isobuster.jpg)
 
 #### Derivative Generation
+
+ISO disc image files can be used as inputs for the popular DVD Ripping program [Handbrake](https://handbrake.fr/). To create an access MP4, open you ISO file in Handbrake in the same manner as a DVD.
 
 #### Appendix A
 There are several methods to apply a de-emphasis filter. If the CD is still available, ripping it via the Apple iTunes software will automatically create a de-emphasized version. If de-emphasis needs to be applied to an already existing file, the following are two options.
