@@ -38,7 +38,7 @@ Collection # (OCLC): 28412834, Collection # (UW): 1693-001, Item # (UW) 14580, O
 #### Coding History
 Contains history about the analog to digital conversion process conforming with [EBU Technical Recommendation R98-1999](https://tech.ebu.ch/docs/r/r098.pdf). 
 
-![BEXT Coding Example](Resources/bext-coding.png)
+![BEXT Coding Example](resources/bext-coding.png)
 
 Two lines are required, the first describing the analog playback and the second describing the digital capture. This takes the form of: 
 > A=Encoding,M=Track arrangement,T=Playback Machine; Serial Number; Playback Speed; Format
